@@ -1,0 +1,288 @@
+/* =============================
+   Paleta e variáveis globais
+   ============================= */
+:root {
+  --cor-primaria: #0077b6;           
+  --cor-secundaria: #90e0ef;         
+  --cor-escura: #023e8a;             
+  --cinza-claro: #e0e0e0;            
+  --cinza-escuro: #d0d0d0;           
+  --cinza-preto: #1a1a1a;            
+  --preto: #000000;                   
+  --branco: #ffffff;                  
+  --cor-primaria-escura: #004a75;    
+  --fonte-principal: 'Segoe UI', sans-serif;
+}
+
+/* =============================
+   Reset e tipografia base
+   ============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte-principal);
+}
+
+body {
+  background: linear-gradient(to bottom, var(--preto), var(--cinza-preto), var(--cor-escura), var(--cor-secundaria));
+  color: var(--branco);
+  line-height: 1.7;
+  font-size: 18px;
+  overflow-x: hidden; /* previne scroll horizontal */
+}
+
+/* =============================
+   Links
+   ============================= */
+a {
+  color: var(--branco); /* Links brancos */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--cor-primaria-escura);  /* Links em destaque ao passar o mouse */
+
+}
+
+/* =============================
+   Header
+   ============================= */
+header {
+  background: linear-gradient(to bottom, var(--preto), var(--cinza-preto), var(--cor-escura), var(--cor-secundaria));
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--fonte-principal);
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--branco); /* Logo branco */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li a {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--branco); /* Todos os links do nav em branco */
+  transition: color 0.4s;
+}
+
+header nav ul li a:hover {
+  color: var(--cor-primaria-escura);
+}
+
+/* =============================
+   Layout das seções
+   ============================= */
+section {
+  padding: 60px 40px;
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 0.8s ease-out;
+  background: linear-gradient(to bottom, var(--preto), var(--cinza-preto), var(--cor-escura), var(--cor-secundaria));
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+section.aparecer {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: var(--branco); /* títulos brancos */
+  text-align: center;
+}
+
+/* =============================
+   Grid de projetos e cards
+   ============================= */
+.projetos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.projeto-card {
+  background: linear-gradient(135deg, var(--cor-primaria-escura), var(--cor-secundaria));
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  overflow: hidden;
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.25);
+  background: linear-gradient(135deg, var(--cor-secundaria), var(--cor-primaria));
+}
+
+.projeto-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.projeto-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: var(--branco);
+}
+
+.projeto-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--cinza-claro);
+}
+
+.projeto-card a {
+  display: inline-block;
+  padding: 10px 16px;
+  background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+  color: var(--branco);
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.projeto-card a:hover {
+  background: var(--cor-primaria-escura);
+}
+
+/* =============================
+   Seção Currículo
+   ============================= */
+.curriculo {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, var(--preto), var(--cinza-preto), var(--cor-escura), var(--cor-secundaria));
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.curriculo h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: var(--branco);
+}
+
+.certificados-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certificado-card {
+  background: linear-gradient(135deg, var(--cor-primaria-escura), var(--cor-secundaria));
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.certificado-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  background: linear-gradient(135deg, var(--cor-secundaria), var(--cor-primaria));
+}
+
+.certificado-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.certificado-card h3 {
+  font-size: 1.2rem;
+  color: var(--branco);
+  margin: 10px 0;
+}
+
+.certificado-card p {
+  font-size: 0.95rem;
+  color: var(--cinza-claro);
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.certificado-card a {
+  display: inline-block;
+  padding: 10px 18px;
+  background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.certificado-card a:hover {
+  background: var(--cor-primaria-escura);
+}
+
+/* =============================
+   Rodapé
+   ============================= */
+footer {
+  background-color: var(--cor-primaria-escura);
+  text-align: center;
+  padding: 20px;
+  color: var(--preto);
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+footer a {
+  color: var(--preto);           /* cor inicial branca */
+  text-decoration: none;
+  transition: color 0.3s ease;    /* transição suave */
+}
+
+footer a:hover {
+  color: var(--branco);                 /* dourado, destaca sobre azul */
+}
+
+
+/* =============================
+   Responsividade
+   ============================= */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 20px;
+  }
+  section h2 {
+    font-size: 28px;
+  }
+  .certificado-card img {
+    height: 150px;
+  }
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+  header nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
