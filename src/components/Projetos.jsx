@@ -14,14 +14,14 @@ const projetos = [
     titulo: "Jogo RPG React",
     descricao: "Um jogo interativo desenvolvido em React, com mecânicas de RPG.",
     tecnologias: ["React", "JavaScript", "CSS"],
-    link: "#",
+    link: "https://snakeshow.netlify.app/",
     img: "src/assets/certificados/contato.png",
   },
   {
     titulo: "Site Angel Cosméticos",
     descricao: "Projeto de e-commerce com produtos, carrinho e cadastro de usuários.",
     tecnologias: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    link: "#",
+    link: "https://angelcosmeticos.netlify.app/",
     img: "src/assets/certificados/contato.png",
   },
   {

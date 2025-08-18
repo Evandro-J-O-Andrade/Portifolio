@@ -45,7 +45,7 @@ function Sobre() {
           lineHeight: "1.6",
         }}
       >
-        Desenvolvedor Web | Criador de projetos em React e aplicações interativas.
+        Desenvolvedor e Programandor Web | Criador de projetos em React e aplicações interativas.
       </p>
 
       {/* Links sociais */}

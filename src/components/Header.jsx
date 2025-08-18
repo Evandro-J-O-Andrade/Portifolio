@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="header">
       {/* Logo / Nome */}
-      <h1 className="logo">Evandro J. O. Andrade</h1>
+      <h1 className="logo">Meu Portifolio</h1>
 
       {/* Navegação */}
       <nav className={`nav ${menuAberto ? "ativo" : ""}`}>
