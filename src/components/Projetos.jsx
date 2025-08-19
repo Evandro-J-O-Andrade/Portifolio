@@ -7,7 +7,7 @@ const projetos = [
     titulo: "Portfólio Pessoal",
     descricao: "Meu site pessoal para mostrar projetos e currículo online.",
     tecnologias: ["React", "JS", "CSS", "HTML"],
-    link: "#https://github.com/evandro-j-o-andrade",
+    link: "https://github.com/evandro-j-o-andrade",
     img: "certificados/portifolio2.png", // caminho relativo para a imagem
   },
   {
