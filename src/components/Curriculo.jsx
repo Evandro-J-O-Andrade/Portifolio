@@ -1,24 +1,20 @@
 // Importando imagens dos certificados
-import certReact from "src/assets/certificados/react.png";
-import certWeb from "src/assets/certificados/web.webp";
-import certPHP from "src/assets/certificados/php.png";
-
 function Curriculo() {
   const certificados = [
     {
       titulo: "Curso de React",
       descricao: "Curso avançado de React e desenvolvimento web.",
-      img: certReact
+      img: "src/assets/certificados/react.png"
     },
     {
       titulo: "Diploma de Desenvolvimento Web",
       descricao: "Diploma emitido pela instituição XYZ.",
-      img: certWeb
+      img: "src/assets/certificados/web.webp"
     },
     {
       titulo: "Curso de PHP e MySQL",
       descricao: "Aprendizado completo de back-end com PHP e MySQL.",
-      img: certPHP
+      img: "src/assets/certificados/php.png"
     },
   ];
 
