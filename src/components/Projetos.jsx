@@ -22,14 +22,14 @@ const projetos = [
     descricao: "Projeto de e-commerce com produtos, carrinho e cadastro de usuários.",
     tecnologias: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     link: "https://angelcosmeticos.netlify.app/",
-    img: "/certificados/siteangelcosmeticos.png",
+    img: "public/certificados/siteangelcosmeticos.png",
   },
   {
     titulo: "Sistema de Cadastro de Médicos",
     descricao: "Aplicação para cadastrar médicos e atendimentos usando PHP e MySQL.",
     tecnologias: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     link: "#",
-    img: "/certificados/diagrama.jpg",
+    img: "public/certificados/diagrama.jpg",
   },
 ];
 

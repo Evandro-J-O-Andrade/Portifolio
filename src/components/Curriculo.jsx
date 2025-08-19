@@ -4,12 +4,12 @@ function Curriculo() {
     {
       titulo: "Curso de React",
       descricao: "Curso avançado de React e desenvolvimento web.",
-      img: "certificados/react.png"
+      img: "public/certificados/react.png"
     },
     {
       titulo: "Diploma de Desenvolvimento Web",
       descricao: "Diploma emitido pela instituição XYZ.",
-      img: "certificados/web.webp"
+      img: "public/certificados/web.webp"
     },
     {
       titulo: "Curso de PHP e MySQL",
