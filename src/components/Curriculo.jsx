@@ -22,7 +22,7 @@ function Curriculo() {
     { nome: "TrueNAS", img: "https://avatars.githubusercontent.com/u/8131664?s=200&v=4" },
     { nome: "VMs", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" },
     { nome: "GLPI", img: "certificados/GLPI.png" },
-    { nome: "Active Directory", img: "/certificados/active-directory.png" },
+    { nome: "Active Directory", img: "certificados/Active-directory.png" },
     { nome: "OPNsense", img: "projetos/opnsense.png" },
     { nome: "PFsense", img: "projetos/pfsense.png"},
     { nome: "Zabbix", img: "projetos/zabbix.jpg" },
