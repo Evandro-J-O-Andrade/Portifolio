@@ -1,0 +1,31 @@
+footer {
+  padding: 30px 20px;
+  background: linear-gradient(to bottom, var(--preto), var(--cinza-preto), var(--cor-escura), var(--cor-secundaria));
+  text-align: center;
+  color: var(--branco);
+  border-radius: 10px 10px 0 0; /* opcional, para combinar com seções */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.footer-socials a {
+  color: var(--cor-primaria);
+  font-size: 1.8rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer-socials a:hover {
+  transform: scale(1.2);
+  color: var(--cor-secundaria);
+}
+
+footer a:hover {
+  transform: scale(1.2);
+  color: #555; /* cor opcional ao passar o mouse */
+}

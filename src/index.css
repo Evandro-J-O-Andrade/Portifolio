@@ -242,28 +242,7 @@ section h2 {
   background: var(--cor-primaria-escura);
 }
 
-/* =============================
-   Rodapé
-   ============================= */
-footer {
-  background-color: var(--cor-primaria-escura);
-  text-align: center;
-  padding: 20px;
-  color: var(--preto);
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
-}
-footer a {
-  color: var(--preto);           /* cor inicial branca */
-  text-decoration: none;
-  transition: color 0.3s ease;    /* transição suave */
-}
-
-footer a:hover {
-  color: var(--branco);                 /* dourado, destaca sobre azul */
-}
-
-
-/* =============================
+/*=============
    Responsividade
    ============================= */
 @media (max-width: 768px) {
