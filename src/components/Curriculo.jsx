@@ -1,7 +1,7 @@
 // Importando imagens dos certificados
-import certReact from "../assets/certificados/react.png";
-import certWeb from "../assets/certificados/web.webp";
-import certPHP from "../assets/certificados/php.png";
+import certReact from "src/assets/certificados/react.png";
+import certWeb from "src/assets/certificados/web.webp";
+import certPHP from "src/assets/certificados/php.png";
 
 function Curriculo() {
   const certificados = [
