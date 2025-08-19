@@ -4,28 +4,28 @@ function Curriculo() {
     {
       titulo: "Curso de React",
       descricao: "Curso avançado de React e desenvolvimento web.",
-      img: "../src/assets/certificados/react.png"
+      img: "src/certificados/react.png"
     },
     {
       titulo: "Diploma de Desenvolvimento Web",
       descricao: "Diploma emitido pela instituição XYZ.",
-      img: "../src/assets/certificados/web.webp"
+      img: "src/certificados/web.webp"
     },
     {
       titulo: "Curso de PHP e MySQL",
       descricao: "Aprendizado completo de back-end com PHP e MySQL.",
-      img: "../src/assets/certificados/php.png"
+      img: "src/certificados/php.png"
     },
   ];
 
   const ferramentasCorporativas = [
     { nome: "TrueNAS", img: "https://avatars.githubusercontent.com/u/8131664?s=200&v=4" },
     { nome: "VMs", img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vagrant/vagrant-original.svg" },
-    { nome: "GLPI", img: "../src/assets/certificados/GLPI.png" },
-    { nome: "Active Directory", img: "../src/assets/certificados/active-directory.png" },
-    { nome: "OPNsense", img: "../src/assets/projetos/opnsense.png" },
-    { nome: "PFsense", img: "../src/assets/projetos/pfsense.png"},
-    { nome: "Zabbix", img: "../src/assets/projetos/zabbix.jpg" },
+    { nome: "GLPI", img: "src/certificados/GLPI.png" },
+    { nome: "Active Directory", img: "src/assets/certificados/active-directory.png" },
+    { nome: "OPNsense", img: "src/projetos/opnsense.png" },
+    { nome: "PFsense", img: "src/projetos/pfsense.png"},
+    { nome: "Zabbix", img: "src/projetos/zabbix.jpg" },
     // Adicione mais ferramentas conforme necessário  
   ];
 
