@@ -26,9 +26,9 @@ const projetos = [
   },
   {
     titulo: "Sistema de Cadastro de Médicos",
-    descricao: "Aplicação para cadastrar médicos e atendimentos usando PHP e MySQL.",
+    descricao: "Aplicação para cadastrar médicos e atendimentos usando PHP MySQL e React.| Para acessar o teste use o Usuario admin e senha 1234",
     tecnologias: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    link: "#",
+    link: "https://gestaomedicaalpha.netlify.app/",
     img: "certificados/Diagrama.jpg",
   },
 ];
