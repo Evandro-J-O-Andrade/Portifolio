@@ -10,6 +10,13 @@ const projetos = [
     link: "https://github.com/evandro-j-o-andrade",
     img: "certificados/portifolio2.png", // caminho relativo para a imagem
   },
+    {
+    titulo: "New Wave Sistemas Digital",
+    descricao: "Meu primeiro site profissional desenvolvido para uma empresa de tecnologia.",
+    tecnologias: ["React", "JS", "CSS", "HTML"],
+    link: "https://newwavesistemasdigital.netlify.app",
+    img: "certificados/newwavesistemasdigital.png", // caminho relativo para a imagem
+  },
   {
     titulo: "Jogo RPG React",
     descricao: "Um jogo interativo desenvolvido em React, com mecânicas de RPG.",
